@@ -8,60 +8,115 @@
     <title>Welcome to hikem.fr</title>
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css?family=Fresca|Exo" rel="stylesheet">
+    <script src="./main.js" defer></script>
 </head>
 
 <body>
-    <div>
-        <div>
-            <header>
-                <div class="logo">
-                    <span class="h-span">H</span>
-                    <span class="i-span">i</span>
-                    <span class="kem-span">kem</span>
-                    <span class="dot-span">.</span>
-                    <span class="kem-span">fr</span>
-                </div>
-                <nav>
-                    <a href="/">home</a>
-                    <a href="/">apps</a>
-                    <a href="/">cv</a>
-                    <a href="/">contact</a>
-                </nav>
-                <div class="nav-menu-icon">
-                    <img src="./assets/icones/menu.png" alt="">
-                </div>
-            </header>
-            <section>
-                <div class="welcome">
-                    <div>
-                        <h1>Bienvenue chez moi !</h1>
-                        <p>it is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
-                            more-or-less normal distribution of letters, as opposed to using 'Content here, content
-                            here', making it look like readable English. Many desktop publishing packages and web page
-                            editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
-                            uncover many web sites still in their infancy.
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <footer>
-                <div>
-                    <div>
-                        <span>Suivez moi... ou pas!</span>
-                    </div>
-                    <div class="social">
-                        <img src="assets/logo/facebook.png" alt="">
-                        <img src="assets/logo/snapchat.png" alt="">
-                        <img src="assets/logo/linkedin.png" alt="">
-                        <img src="assets/logo/insta.png" alt="">
-                        <img src="assets/logo/annuler.png" alt="">
-                        <img src="assets/logo/githubgenericname.png" alt="">
-                    </div>
-                </div>
-            </footer>
+    <nav class="navside-bar">
+        <div class="nav">
+            <div class="close">
+                <img class="icon revert-filter" src="./assets/icones/lettre-x.png" alt="">
+            </div>
+            <div class="navside-block">
+                <img class="icon revert-filter" src="./assets/icones/domicile.png" alt="">
+                <span>home</span>
+            </div>
+            <div class="navside-block">
+                <img class="icon revert-filter" src="./assets/icones/application-medicale.png" alt="">
+                <span>apps</span>
+            </div>
+            <div class="navside-block">
+                <img class="icon revert-filter" src="./assets/icones/cv.png" alt="">
+                <span>cv</span>
+            </div>
+            <div class="navside-block">
+                <img class="icon revert-filter" src="./assets/icones/carnet-de-contact.png" alt="">
+                <span>contact</span>
+            </div>
         </div>
-    </div>
+        <div class="bg-dark">
+
+        </div>
+    </nav>
+        <div class="bg-gradient">
+            <div class="content">
+                <header>
+                    <div class="logo">
+                        <span class="h-span">H</span>
+                        <span class="i-span">i</span>
+                        <span class="kem-span">kem</span>
+                        <span class="dot-span">.</span>
+                        <span class="kem-span">fr</span>
+                    </div>
+                    <nav>
+                        <div class="nav-link">
+                            <a href="/">home</a>
+                        </div>
+                        <div class="nav-link">
+                            <a>apps</a>
+                            <div class="dropdown">
+                                <div class="dropdown-block">
+                                    <img class="only-chart" src="./assets/logo/logo.png" alt="">
+                                    <span>OnlyChart</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-link">
+                            <a href="/">cv</a>
+                        </div>
+                        <div class="nav-link">
+                            <a>contact</a>
+                            <div class="dropdown">
+                                <div class="dropdown-block">
+                                    <img class="icon" src="./assets/icones/lettre.png" alt="">
+                                    <span>hikem@hotmail.fr</span>
+                                </div>
+                                <div class="dropdown-block">
+                                    <img class="icon" src="./assets/icones/lettre.png" alt="">
+                                    <span>hikemsfr@gmail.fr</span>
+                                </div>
+                                <div class="dropdown-block">
+                                    <img class="icon" src="./assets/icones/telephone.png" alt="">
+                                    <span>06.17.22.20.75</span>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="nav-menu-icon revert-filter">
+                        <img src="./assets/icones/menu.png" alt="">
+                    </div>
+                </header>
+                <section>
+                    <div class="welcome">
+                        <div>
+                            <h1>Bienvenue chez moi !</h1>
+                            <p>it is a long established fact that a reader will be distracted by the readable content of a
+                                page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                                more-or-less normal distribution of letters, as opposed to using 'Content here, content
+                                here', making it look like readable English. Many desktop publishing packages and web page
+                                editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                                uncover many web sites still in their infancy.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <div>
+                        <div>
+                            <span>Suivez moi... ou pas!</span>
+                        </div>
+                        <div class="social">
+                            <img src="assets/logo/facebook.png" alt="">
+                            <img src="assets/logo/snapchat.png" alt="">
+                            <img src="assets/logo/linkedin.png" alt="">
+                            <img src="assets/logo/insta.png" alt="">
+                            <img src="assets/logo/annuler.png" alt="">
+                            <img src="assets/logo/githubgenericname.png" alt="">
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
 </body>
 
 </html>
