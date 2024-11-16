@@ -1,6 +1,6 @@
 @keyframes bg-lighting  {
     0% {background-color: rgba(12, 9, 78, 0.2);}
-    50% {background-color: rgba(255, 247, 0, 0.2);}
+    50% {background-color: rgba(252, 154, 73, 0.2);}
     1000% {background-color: rgba(12,0,78,0.2);}
 }
 @keyframes growing  {
@@ -27,9 +27,6 @@ body{
     background-image: url("assets/images/village-background-asset-game-2d-futuristic-generative-ai.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
 }
 body > div {
     background: linear-gradient(75deg, rgba(159, 158, 158, 0.7) 50%, rgba(0,212,255,0) 50%);
@@ -69,12 +66,12 @@ header > nav > a{
     text-decoration: none;
     color: white;
     padding: 5px 15px;
-    background-color: rgba(26, 48, 77);
+    background-color: #1a304d;
     border-radius: 10px;
     transition-duration: 0.2s;
 }
 header > nav > a:hover{
-    color: rgba(26, 48, 77);
+    color: #1a304d;
     background-color: white;
     animation: growing 0.5s;
 }
@@ -97,7 +94,7 @@ header > .nav-menu-icon > img{
 }
 .logo > .h-span{
     font-size: 6rem;
-    color: rgb(26, 48, 77);
+    color: #1a304d;
 }
 .logo > .i-span{
     margin-left: -15px;
@@ -109,7 +106,7 @@ header > .nav-menu-icon > img{
     color: white;
 }
 .logo > .dot-span{
-    color: rgb(26, 48, 77);
+    color: #1a304d;
     font-size: 3rem;
 }
 .welcome{
@@ -136,7 +133,7 @@ header > .nav-menu-icon > img{
 }
 footer{
     width: 100%;
-    background-color: rgba(26, 48, 77);
+    background-color: #1a304d;
     background: linear-gradient(75deg, rgba(26, 48, 77) 30%, rgba(26, 48, 77, 0.9) 90%);
     padding: 1rem 0;
 }
