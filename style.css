@@ -40,7 +40,7 @@ body > div > div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgba(12,0,78,0.2);
+    background-color: #0c004e33;
     animation: bg-lighting 10s ease-in-out infinite;
 }
 section{
