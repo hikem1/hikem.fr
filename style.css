@@ -24,16 +24,19 @@
 }
 body{
     margin: 0;
-    height: 100vh; 
+    min-height: 100vh; 
     background-image: url("assets/images/village-background-asset-game-2d-futuristic-generative-ai.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 section{
     background-color: rgba(12,0,78,0.2);
     animation: bg-lighting 10s ease-in-out infinite;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
 }
 section > div {
     background: linear-gradient(75deg, rgba(159, 158, 158, 0.7) 50%, rgba(0,212,255,0) 50%);
@@ -124,6 +127,7 @@ section > div > header > .nav-menu-icon > img{
     font-family: 'Exo';
     color: white;
     max-width: 50%;
+
 }
 footer{
     width: 100%;
@@ -151,8 +155,6 @@ footer > div > div > img{
 }
 footer > div > div > img:hover{
     cursor: pointer;
-    /* transform: scale(1.2); */
-    /* transition-duration: 0.2s; */
     animation: growing 0.5s;
 }
 
