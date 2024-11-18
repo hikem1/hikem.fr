@@ -1,0 +1,27 @@
+@keyframes bg-lighting  {
+    0% {background-color: rgba(7, 5, 46, 0.7);}
+    20% {background-color: rgba(252, 154, 73, 0.2);}
+    80% {background-color: rgba(252, 154, 73, 0.2);}
+    100% {background-color: rgba(7, 5, 46, 0.7);}
+}
+@keyframes growing  {
+    0% {
+        transform: scaleY(1);
+    }
+    25% {
+        transform: scaleY(1.2);
+    }
+    50% {
+        transform: scaleX(1.2);
+    }
+    100% {
+        transform: scaleY(1);
+        transform: scaleX(1);
+    }
+}
+.grow{
+    animation: growing 0.5s;
+}
+.bg-lighting{
+    animation: bg-lighting 20s ease-in-out infinite;
+}

@@ -5,92 +5,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#1a304d">
-    <title>Welcome to hikem.fr</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Bienvenue sur hikem.fr</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./logo.css">
+    <link rel="stylesheet" href="./navside.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./section.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./animation.css">
+    <link rel="stylesheet" href="./media.css">
     <link href="https://fonts.googleapis.com/css?family=Fresca|Exo" rel="stylesheet">
     <script src="./main.js" defer></script>
 </head>
 
-<body>
-    <nav class="navside-bar">
-        <div class="nav">
-            <div class="close">
-                <img class="icon revert-filter" src="./assets/icones/lettre-x.png" alt="">
+<body class="pos-relative">
+    <nav class="navside-bar pos-absolute flex">
+        <div class="nav flex flex-col bg-prim">
+            <div class="close flex">
+                <img class="invert-filter cursor-p" src="./assets/icones/lettre-x.png" alt="">
             </div>
-            <div class="navside-block">
-                <img class="icon revert-filter" src="./assets/icones/domicile.png" alt="">
+            <div class="navside-block flex font-exo cursor-p txt-white bord-radius">
+                <img class="icon invert-filter" src="./assets/icones/domicile.png" alt="">
                 <span>home</span>
             </div>
-            <div class="navside-block">
-                <img class="icon revert-filter" src="./assets/icones/application-medicale.png" alt="">
-                <span>apps</span>
+            <div class="navside-dropdown flex flex-col txt-white font-exo cursor-p bord-radius">
+                <div>
+                    <img class="icon invert-filter" src="./assets/icones/application-medicale.png" alt="">
+                    <span>apps</span>
+                </div>
+                <div class="navside-dropdown-item bord-radius d-none">
+                    <img class="only-chart" src="./assets/logo/logo.png" alt="">
+                    <a class="txt-white" href="https://only-chart.hikem.fr">OnlyChart</a>
+                </div>
             </div>
-            <div class="navside-block">
-                <img class="icon revert-filter" src="./assets/icones/cv.png" alt="">
+            <div class="navside-block flex font-exo cursor-p txt-white bord-radius">
+                <img class="icon invert-filter" src="./assets/icones/cv.png" alt="">
                 <span>cv</span>
             </div>
-            <div class="navside-block">
-                <img class="icon revert-filter" src="./assets/icones/carnet-de-contact.png" alt="">
-                <span>contact</span>
+            <div class="navside-dropdown flex flex-col txt-white font-exo cursor-p bord-radius">
+                <div>
+                    <img class="icon invert-filter" src="./assets/icones/carnet-de-contact.png" alt="">
+                    <span>contact</span>
+                </div>
+                <div class="navside-dropdown-item bord-radius d-none">
+                    <img class="icon invert-filter" src="./assets/icones/lettre.png" alt="">
+                    <a class="txt-white" href="mailto: hikem@hotmail.fr">hikem@hotmail.fr</a>
+                </div>
+                <div class="navside-dropdown-item bord-radius d-none">
+                    <img class="icon invert-filter" src="./assets/icones/lettre.png" alt="">
+                    <a class="txt-white" href="mailto: hikemsfr@gmail.com">hikemsfr@gmail.com</a>
+                </div>
+                <div class="navside-dropdown-item bord-radius d-none">
+                    <img class="icon invert-filter" src="./assets/icones/telephone.png" alt="">
+                    <span>06.17.22.20.75</span>
+                </div>
             </div>
         </div>
         <div class="bg-dark">
-
         </div>
     </nav>
         <div class="bg-gradient">
-            <div class="content">
-                <header>
-                    <div class="logo">
-                        <span class="h-span">H</span>
-                        <span class="i-span">i</span>
-                        <span class="kem-span">kem</span>
-                        <span class="dot-span">.</span>
-                        <span class="kem-span">fr</span>
+            <div class="content flex flex-col space-between bg-lighting">
+                <header class="flex space-between pos-relative">
+                    <div class="logo cursor-p">
+                        <span class="h-span txt-bold font-fresca txt-prim">H</span>
+                        <span class="i-span txt-bold font-fresca txt-white">i</span>
+                        <span class="kem-span txt-bold font-fresca txt-white">kem</span>
+                        <span class="dot-span txt-bold font-fresca txt-prim">.</span>
+                        <span class="kem-span txt-bold font-fresca txt-white">fr</span>
                     </div>
-                    <nav>
-                        <div class="nav-link">
-                            <a href="/">home</a>
+                    <nav class="align-center">
+                        <div class="nav-link pos-relative cursor-p">
+                            <a class=" bg-prim bord-radius font-exo txt-bold txt-white" href="/">home</a>
                         </div>
-                        <div class="nav-link">
-                            <a>apps</a>
-                            <div class="dropdown">
-                                <div class="dropdown-block">
+                        <div class="nav-link pos-relative cursor-p">
+                            <a class=" bg-prim bord-radius font-exo txt-bold txt-white">apps</a>
+                            <div class="dropdown d-none flex-col txt-prim font-exo bord-radius pos-absolute">
+                                <div class="dropdown-block flex align-center cursor-p bord-radius">
                                     <img class="only-chart" src="./assets/logo/logo.png" alt="">
-                                    <span>OnlyChart</span>
+                                    <a class="txt-prim" href="https://only-chart.hikem.fr">OnlyChart</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="nav-link">
-                            <a href="/">cv</a>
+                        <div class="nav-link pos-relative cursor-p">
+                            <a class="bg-prim bord-radius font-exo txt-bold txt-white" href="/">cv</a>
                         </div>
-                        <div class="nav-link">
-                            <a>contact</a>
-                            <div class="dropdown">
-                                <div class="dropdown-block">
+                        <div class="nav-link pos-relative cursor-p">
+                            <a class=" bg-prim bord-radius font-exo txt-bold txt-white">contact</a>
+                            <div class="dropdown d-none flex-col txt-prim font-exo bord-radius pos-absolute">
+                                <div class="dropdown-block flex align-center cursor-p bord-radius">
                                     <img class="icon" src="./assets/icones/lettre.png" alt="">
-                                    <span>hikem@hotmail.fr</span>
+                                    <a class="txt-prim" href="mailto: hikem@hotmail.fr">hikem@hotmail.fr</a>
                                 </div>
-                                <div class="dropdown-block">
+                                <div class="dropdown-block flex align-center cursor-p bord-radius">
                                     <img class="icon" src="./assets/icones/lettre.png" alt="">
-                                    <span>hikemsfr@gmail.fr</span>
+                                    <a class="txt-prim" href= "mailto: hikemsfr@gmail.com">hikemsfr@gmail.fr</a>
                                 </div>
-                                <div class="dropdown-block">
+                                <div class="dropdown-block flex align-center cursor-p bord-radius">
                                     <img class="icon" src="./assets/icones/telephone.png" alt="">
                                     <span>06.17.22.20.75</span>
                                 </div>
                             </div>
                         </div>
                     </nav>
-                    <div class="nav-menu-icon revert-filter">
+                    <div class="nav-menu-icon invert-filter pos-absolute d-none cursor-p">
                         <img src="./assets/icones/menu.png" alt="">
                     </div>
                 </header>
-                <section>
-                    <div class="welcome">
-                        <div>
-                            <h1>Bienvenue chez moi !</h1>
-                            <p>it is a long established fact that a reader will be distracted by the readable content of a
+                <section class="flex flex-col space-between">
+                    <div class="welcome flex">
+                        <div class="flex flex-col">
+                            <h1 class="txt-white font-fresca">Bienvenue chez moi !</h1>
+                            <p class="font-exo txt-white">it is a long established fact that a reader will be distracted by the readable content of a
                                 page when looking at its layout. The point of using Lorem Ipsum is that it has a
                                 more-or-less normal distribution of letters, as opposed to using 'Content here, content
                                 here', making it look like readable English. Many desktop publishing packages and web page
@@ -100,18 +126,30 @@
                         </div>
                     </div>
                 </section>
-                <footer>
-                    <div>
-                        <div>
+                <footer class="bg-prim">
+                    <div class="flex center">
+                        <div class="txt-white font-fresca flex center">
                             <span>Suivez moi... ou pas!</span>
                         </div>
-                        <div class="social">
-                            <img src="assets/logo/facebook.png" alt="">
-                            <img src="assets/logo/snapchat.png" alt="">
-                            <img src="assets/logo/linkedin.png" alt="">
-                            <img src="assets/logo/insta.png" alt="">
-                            <img src="assets/logo/annuler.png" alt="">
-                            <img src="assets/logo/githubgenericname.png" alt="">
+                        <div class="social flex center">
+                            <a href="/">
+                                <img class="icon cursor-p" src="assets/logo/facebook.png" alt="">
+                            </a>
+                            <a href="/">
+                                <img class="icon cursor-p" src="assets/logo/snapchat.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/fabien-rouchon-3ab40b229">
+                                <img class="icon cursor-p" src="assets/logo/linkedin.png" alt="">
+                            </a>
+                            <a href="">
+                                <img class="icon cursor-p" src="assets/logo/insta.png" alt="">
+                            </a>
+                            <a href="">
+                                <img class="icon cursor-p invert-filter" src="assets/logo/annuler.png" alt="">
+                            </a>
+                            <a href="https://github.com/hikem1">
+                                <img class="icon cursor-p" src="assets/logo/githubgenericname.png" alt="">
+                            </a>
                         </div>
                     </div>
                 </footer>

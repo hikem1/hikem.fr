@@ -1,0 +1,48 @@
+header{
+    margin: 0 auto;
+    width: 80%;
+}
+header > nav{
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+header .nav-link:hover{
+    animation: growing 0.5s;
+}
+header .nav-link > a{
+    text-wrap: nowrap;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+header .nav-link > a:hover{
+    color: #1a304d;
+    background-color: white;
+}
+header .dropdown{
+    background-color: rgba(255, 255, 255, 0.744);
+    right: 0;
+    margin-top: 4px;
+    padding: 0.5rem;
+}
+header .dropdown-block{
+    gap: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 0.5rem;
+}
+header .dropdown-block:hover{
+    background-color: #1a304d1f;
+}
+.dropdown-block a{
+    text-decoration: none;
+}
+header > .nav-menu-icon{
+    right: 0;
+    top: 3.2rem;
+}
+header > .nav-menu-icon:hover{
+    animation: growing 0.5s;
+}
+header > .nav-menu-icon > img{
+    width: 40px;
+}

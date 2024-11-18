@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: url("assets/images/village-background-asset-game-2d-futuristic-generative-ai.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body .bg-gradient {
+    background: linear-gradient(75deg, rgba(159, 158, 158, 0.7) 50%, rgba(0,212,255,0) 50%);
+}
+body .content{
+    min-height: 100vh; 
+    margin: auto;
+    background-color: #0c004e33;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.space-between{
+    justify-content: space-between;
+}
+.center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.pos-absolute{
+    position: absolute;
+}
+.pos-relative{
+    position: relative;
+}
+.d-none{
+    display: none;
+}
+.txt-white{
+    color: white;
+}
+.txt-prim{
+    color: #1a304d;
+}
+.txt-bold{
+    font-weight: bold;
+}
+.font-exo{
+    font-family: 'Exo';
+}
+.font-fresca{
+    font-family: 'Fresca';
+}
+.invert-filter{
+    filter: invert(100%);
+}
+.cursor-p{
+    cursor: pointer;
+}
+.bg-prim{
+    background-color: #1a304d;
+}
+.bord-radius{
+    border-radius: 10px;
+}
+.icon{
+    width: 20px;
+}
+.only-chart{
+    width: 20px;
+    transform: scale(1.8);
+}

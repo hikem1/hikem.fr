@@ -1,0 +1,16 @@
+.logo:hover{
+    animation: growing 0.5s;
+}
+.logo > .h-span{
+    font-size: 6rem;
+}
+.logo > .i-span{
+    margin-left: -15px;
+    font-size: 2rem;
+}
+.logo > .kem-span{
+    font-size: 2rem;
+}
+.logo > .dot-span{
+    font-size: 3rem;
+}

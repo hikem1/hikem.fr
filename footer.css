@@ -1,0 +1,19 @@
+footer{
+    width: 100%;
+    background: linear-gradient(75deg, rgba(26, 48, 77) 30%, rgba(26, 48, 77, 0.9) 90%);
+    padding: 1rem 0;
+}
+footer > div{
+    width: 80%;
+    margin: auto;
+    gap: 1.5rem;
+}
+footer > div > .social{
+    gap: 1.5rem;
+}
+footer > div > div > img{
+    transition-duration: 0.2s;
+}
+footer > div > div > img:hover{
+    animation: growing 0.5s;
+}
