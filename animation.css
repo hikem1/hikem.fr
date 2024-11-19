@@ -34,6 +34,9 @@
 .grow{
     animation: growing 0.5s;
 }
+.grow-infinite{
+    animation: growing 2s ease-in-out infinite;
+}
 .bg-lighting{
     animation: bg-lighting 60s ease-in-out infinite;
 }
