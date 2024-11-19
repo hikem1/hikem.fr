@@ -8,12 +8,12 @@ footer > div{
     margin: auto;
     gap: 1.5rem;
 }
-footer > div > .social{
+footer .social{
     gap: 1.5rem;
 }
-footer > div > div > img{
+footer .social a{
     transition-duration: 0.2s;
 }
-footer > div > div > img:hover{
+footer .social a:hover{
     animation: growing 0.5s;
 }

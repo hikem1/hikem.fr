@@ -74,3 +74,6 @@ body .content{
     width: 20px;
     transform: scale(1.8);
 }
+.lighting{
+    text-shadow: 0 0 2px rgb(255, 255, 255)
+}

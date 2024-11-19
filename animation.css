@@ -4,6 +4,18 @@
     80% {background-color: rgba(252, 154, 73, 0.2);}
     100% {background-color: rgba(7, 5, 46, 0.7);}
 }
+@keyframes H-lighting  {
+    0% {color: #a27758d3;}
+    20% {color: #1a304d;}
+    80% {color: #1a304d;}
+    100% {color: #a27758d3;}
+}
+@keyframes H-lighting  {
+    0% {text-shadow: 0 0 20px rgb(255, 255, 249), 0 0 20px rgb(255, 255, 255);}
+    15% {text-shadow: 0 0 0 rgb(249, 249, 255), 0 0 2px rgb(255, 255, 255);}
+    98% {text-shadow: 0 0 0 rgb(249, 249, 255), 0 0 2px rgb(255, 255, 255);}
+    100% {text-shadow: 0 0 20px rgb(249, 249, 255), 0 0 20px rgb(255, 255, 255);}
+}
 @keyframes growing  {
     0% {
         transform: scaleY(1);
@@ -23,5 +35,5 @@
     animation: growing 0.5s;
 }
 .bg-lighting{
-    animation: bg-lighting 20s ease-in-out infinite;
+    animation: bg-lighting 60s ease-in-out infinite;
 }
