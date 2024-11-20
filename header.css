@@ -22,9 +22,17 @@ header .nav-link > a:hover{
 header .dropdown{
     background-color: rgba(255, 255, 255, 0.744);
     right: 0;
-    margin-top: 4px;
+    margin-top: 25px;
     padding: 0.5rem;
 }
+header .dropdown > :nth-child(1){
+    width: 50%;
+    height: 20px;
+    top: -20px;
+    right: 0;
+    background: rgba(255, 255, 255, 0);
+}
+
 header .dropdown-block{
     gap: 0.5rem;
     border: 1px solid rgba(255, 255, 255, 0);

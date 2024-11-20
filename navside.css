@@ -6,7 +6,7 @@
     overflow: auto;
 }
 .nav{
-    gap: 1.5rem;
+    gap: 2rem;
     max-width: 500px;
     padding:1rem;
     min-width: 350px;
@@ -21,10 +21,13 @@
 }
 .navside-block:hover{
     animation: growing 0.5s;
-    border-left: 2px solid white;
     background-color: rgba(18, 15, 15, 0.808);
     filter: invert(100%);
     transition-duration: 0.3s;
+}
+.navside-block a{
+    text-decoration: none;
+    width: 100%;
 }
 .navside-dropdown{
     gap: 0.2rem;
@@ -32,15 +35,17 @@
     padding: 0.5rem;
     transition-duration: 0.3s;
 }
+.navside-dropdown > div{
+    gap: 0.5rem;
+}
 .navside-dropdown:hover{
     animation: growing 0.5s;
-    border-left: 2px solid white;
     background-color: rgba(18, 15, 15, 0.808);
     filter: invert(100%);
     transition-duration: 0.3s;
 }
 .navside-dropdown-item{
-    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    padding: 1rem 0.5rem 0.5rem 2rem;
     gap: 1rem;
     display: none;
 }
@@ -49,6 +54,7 @@
 }
 .navside-dropdown-item > a{
     text-decoration: none;
+    width: 100%;
 }
 .bg-dark{
     background-color: #1a304dba;
@@ -60,7 +66,7 @@
     padding: 0.5rem;
 }
 .close img{
-    width: 40px;
+    width: 30px;
     filter: drop-shadow(5px 1px 0px rgba(139, 139, 139, 0.42)) invert(100%);
     rotate: -10deg;
 }

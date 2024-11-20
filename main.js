@@ -49,3 +49,10 @@ navDropdowns.forEach(navDropdown => {
         })
     })
 })
+
+const audioSample = document.querySelector('#like-this-sample')
+const spanLikeThis = document.querySelector('.like-this')
+
+spanLikeThis.addEventListener('click', ()=>{
+    audioSample.play()
+})

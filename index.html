@@ -26,24 +26,24 @@
             </div>
             <div class="navside-block flex font-exo cursor-p txt-white bord-radius">
                 <img class="icon invert-filter" src="./assets/icones/domicile.png" alt="">
-                <span>home</span>
-            </div>
-            <div class="navside-dropdown flex flex-col txt-white font-exo cursor-p bord-radius">
-                <div>
-                    <img class="icon invert-filter" src="./assets/icones/application-medicale.png" alt="">
-                    <span>apps</span>
-                </div>
-                <div class="navside-dropdown-item bord-radius d-none">
-                    <img class="only-chart" src="./assets/logo/logo.png" alt="">
-                    <a class="txt-white" href="https://only-chart.hikem.fr">OnlyChart</a>
-                </div>
+                <a class="txt-white" href="/">home</a>
             </div>
             <div class="navside-block flex font-exo cursor-p txt-white bord-radius">
                 <img class="icon invert-filter" src="./assets/icones/cv.png" alt="">
-                <span>cv</span>
+                <a class="txt-white" href="/">cv</a>
             </div>
             <div class="navside-dropdown flex flex-col txt-white font-exo cursor-p bord-radius">
-                <div>
+                <div class="flex align-center">
+                    <img class="icon invert-filter" src="./assets/icones/application-medicale.png" alt="">
+                    <span>apps</span>
+                </div>
+                <div class="navside-dropdown-item bord-radius d-none align-center">
+                    <img class="only-chart invert-filter" src="./assets/logo/logo.png" alt="">
+                    <a class="txt-white" href="https://only-chart.hikem.fr">OnlyChart</a>
+                </div>
+            </div>
+            <div class="navside-dropdown flex flex-col txt-white font-exo cursor-p bord-radius">
+                <div class="flex align-center">
                     <img class="icon invert-filter" src="./assets/icones/carnet-de-contact.png" alt="">
                     <span>contact</span>
                 </div>
@@ -79,8 +79,13 @@
                             <a class=" bg-prim bord-radius font-exo txt-bold txt-white" href="/">home</a>
                         </div>
                         <div class="nav-link pos-relative cursor-p">
+                            <a class="bg-prim bord-radius font-exo txt-bold txt-white" href="/">cv</a>
+                        </div>
+                        <div class="nav-link pos-relative cursor-p">
                             <a class=" bg-prim bord-radius font-exo txt-bold txt-white">apps</a>
                             <div class="dropdown d-none flex-col txt-prim font-exo bord-radius pos-absolute">
+                                <div class="bg-prim pos-absolute">
+                                </div>
                                 <div class="dropdown-block flex align-center cursor-p bord-radius">
                                     <img class="only-chart" src="./assets/logo/logo.png" alt="">
                                     <a class="txt-prim" href="https://only-chart.hikem.fr">OnlyChart</a>
@@ -88,11 +93,10 @@
                             </div>
                         </div>
                         <div class="nav-link pos-relative cursor-p">
-                            <a class="bg-prim bord-radius font-exo txt-bold txt-white" href="/">cv</a>
-                        </div>
-                        <div class="nav-link pos-relative cursor-p">
                             <a class=" bg-prim bord-radius font-exo txt-bold txt-white">contact</a>
                             <div class="dropdown d-none flex-col txt-prim font-exo bord-radius pos-absolute">
+                                <div class="bg-prim pos-absolute">
+                                </div>
                                 <div class="dropdown-block flex align-center cursor-p bord-radius">
                                     <img class="icon" src="./assets/icones/lettre.png" alt="">
                                     <a class="txt-prim" href="mailto: hikem1@hotmail.fr">hikem1@hotmail.fr</a>
@@ -157,9 +161,12 @@
                         </div>
                     </div>
                 </footer>
-                <div class="like-this pos-absolute grow-infinite bord-radius flex align-center">
-                    <iframe class="bord-radius bg-prim" width="20" height="20" src="https://www.youtube.com/embed/l5EJ37tm7N0" title="C&#39;est moi qui l&#39;ai fait Pub Delifrance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <span class="txt-white font-fresca">ça vous plait ???</span>
+                <div class="like-this pos-absolute bord-radius flex align-center">
+                    <audio id="like-this-sample">
+                        <source src="./assets/audio/like-this.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <span class="txt-white font-fresca cursor-p grow-infinite">ça vous plait ???</span>
                 </div>
             </div>
         </div>

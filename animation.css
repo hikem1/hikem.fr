@@ -31,6 +31,11 @@
         transform: scaleX(1);
     }
 }
+@keyframes zoom {
+    0% { background-size: 450%;}
+    50% { background-size: 500%;}
+    100% { background-size: 450%;}
+  }
 .grow{
     animation: growing 0.5s;
 }
@@ -39,4 +44,7 @@
 }
 .bg-lighting{
     animation: bg-lighting 60s ease-in-out infinite;
+}
+.zoom {
+  animation: zoom 5s linear infinite;
 }

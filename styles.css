@@ -6,9 +6,10 @@ body{
     background-image: url("assets/images/village-background-asset-game-2d-futuristic-generative-ai.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: right 35% bottom 50%;
 }
 body .bg-gradient {
-    background: linear-gradient(75deg, rgba(159, 158, 158, 0.7) 50%, rgba(0,212,255,0) 50%);
+    background: linear-gradient(75deg, #1a304dc7 50%, rgba(0,212,255,0) 50%);
 }
 body .content{
     min-height: 100vh; 
